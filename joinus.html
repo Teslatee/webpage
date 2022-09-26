@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joinus</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: blueviolet;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .all{
+            position: absolute;
+            background-color: aliceblue;
+            height: 70vh;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50vh;
+            align-content: center;
+            border-radius: 15px;
+        }
+        .all h1{
+            text-align: center;
+            margin: 10px, 0, 5px 0;
+            font-weight: 300;
+            color: rgb(160, 129, 189);
+        }
+        .list{
+            margin: 10px;
+        }
+        .list input{
+            width: 100%;
+            border: none;
+            background: rgb(197, 197, 188);
+            height: 15px;
+        }
+        .list label{
+        }
+        .signup{
+            text-align: center;
+            background-color: none;
+            margin-top: 30px;   
+        }
+        .signup a button{
+            width: 90px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        .signup a button:hover{
+            border-color: rgb(36, 138, 138);
+        }
+        .two{
+            text-align: center;
+            margin-top: 60px;
+            display: flex;
+            justify-content: center;
+        }
+        .github{
+            margin-right: 5px;
+        }
+        .google{
+            margin-left: 5px;
+            height: 30px;
+        }
+        .google a button{
+            width: 90px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        .google a button:hover{
+            border-color: rgb(36, 138, 138);
+        }
+        
+        
+    </style>
+<script src="https://kit.fontawesome.com/2e003f5fdb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="all">
+        <h1>Join us</h1>
+        <form action="" method="post">
+            <div class="list">
+                <label for="fullname">Fullname</label>
+                <input type="text" name="fullname" id="fullname" placeholder="fullname">
+                <span></span>    
+            </div>
+            <div class="list">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Email">
+                <span></span>
+            </div>
+            <div class="list">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password">
+                <span></span>
+            </div>
+            <div class="signup">
+                <a href="Login.html"><button>Sign up</button></a>
+            </div>
+            <div class="two">
+                <div class="google">
+                    <a href=""><button><i class="fa-brands fa-square-github"></i>  Github</button></a>
+                </div>
+                <div class="google">
+                    <a href=""><button><i class="fa-brands fa-google"></i>  Google</button></a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
